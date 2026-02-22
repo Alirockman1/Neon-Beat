@@ -54,23 +54,23 @@ The core technical highlight is a custom "Byte-Sniffer" that intercepts raw PCM 
 ```NeonBeat/
 |-- src/main/
 |   |-- java/com/musicplayer/
-|   |   |-- app.java      	    (Main application unscript)
-|   |   |-- LightingPanel.java      (Custom rendering logic)
-|   |   |-- MusicPlayer.java        (Audio engine and byte-sniffer)
-|   |   |-- MusicPlayerGUI.java     (UI components and event handling)
-|   |   |-- Song.java     	    (Data class for songs)
-|   |   |-- MusicPlayer.java        (Player data class for MP3)
-|   |   |-- MusicPlayerWAV.java     (Player data class for WAV)
-|   |   |-- ITUNESEndPoint.java     (Communication net)
+|   |   |-- app.java      	          (Main application unscript)
+|   |   |-- LightingPanel.java        (Custom rendering logic)
+|   |   |-- MusicPlayer.java          (Audio engine and byte-sniffer)
+|   |   |-- MusicPlayerGUI.java       (UI components and event handling)
+|   |   |-- Song.java     	          (Data class for songs)
+|   |   |-- MusicPlayer.java          (Player data class for MP3)
+|   |   |-- MusicPlayerWAV.java       (Player data class for WAV)
+|   |   |-- ITUNESEndPoint.java       (Communication net)
 |   |-- java/com/music_database_API/
-|   |-- main.py                 (Python REST API)
-|   |-- database.py             (Communication with Postgress database)
-|   |-- database_schema.py     	(Pydantic schema for the Java data)
-|   |-- song_schema.py     	(Pydantic schema for the song data class)
-|-- assets/                 (Audio files and UI resources)
-|-- libs/                   (Additional Java libraries)
-|-- requirements.txt        (Python dependencies)
-|-- pom.xml                 (Java Libraries)
+|   |-- main.py                       (Python REST API)
+|   |-- database.py                   (Communication with Postgres database)
+|   |-- database_schema.py     	      (Pydantic schema for the Java data)
+|   |-- song_schema.py     	          (Pydantic schema for the song data class)
+|-- assets/                           (Audio files and UI resources)
+|-- libs/                             (Additional Java libraries)
+|-- requirements.txt                  (Python dependencies)
+|-- pom.xml                           (Java Libraries)
 |-- README.md               
 ```
 
