@@ -1,0 +1,7 @@
+To Do...
+
+1. Test Run a list of songs
+
+4. Add static Waveform on top of the slider in light blue
+
+5. Change the app colour from baseline to a colour based on the songs genre...

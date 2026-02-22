@@ -1,0 +1,7 @@
+fastapi          # Or flask
+uvicorn          # ASGI server for networking
+sqlalchemy       # Database ORM
+psycopg2-binary  # PostgreSQL driver
+librosa          # Audio Analysis
+numpy
+python-dotenv    # To load your DB credentials from .env
