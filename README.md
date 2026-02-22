@@ -51,7 +51,7 @@ The core technical highlight is a custom "Byte-Sniffer" that intercepts raw PCM 
 3. Run MusicPlayerGUI.java.
 
 ## 5. PROJECT STRUCTURE
-NeonBeat/
+```NeonBeat/
 |-- src/main/
 |   |-- java/com/musicplayer/
 |   |   |-- app.java      	    (Main application unscript)
@@ -72,6 +72,7 @@ NeonBeat/
 |-- requirements.txt        (Python dependencies)
 |-- pom.xml                 (Java Libraries)
 |-- README.md               
+```
 
 ## 6. AUTHOR
 Ali Abbas Kapadia
